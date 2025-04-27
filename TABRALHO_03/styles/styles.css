@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background: #201509;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+}
+header p {
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+header h1 {
+    margin-bottom: 0px;
+}
+nav {
+    margin-top: 20px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+nav a.active,
+nav a:hover {
+    background: #c01868;
+}
+.welcome {
+    background: #c0492c;
+    color: black;
+    padding: 50px 20px;
+    text-align: center;
+}
+.welcome a {
+    color: black;
+}
+.features, .services {
+    padding: 0 0 60px 0;
+    text-align: center;
+    background: #fff;
+    color: rgb(75, 75, 75);
+}
+.features {
+    padding-top: 60px;
+}
+.features h3 {
+    color:  #201509;
+}
+.feature-item, .service-item {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    vertical-align: top;
+}
+.feature-item img, .service-item img {
+    width: 50px;
+    height: 50px;
+}
+.button {
+    background: #c01868;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.services h2 {
+    font-size: 38px;
+    margin-bottom: 0px;
+    color: rgb(56, 56, 56);
+    margin-top: 0px;
+}
+.services .subtitle {
+    letter-spacing: 1.5px;
+    font-weight: 200;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.material-symbols-outlined {
+    font-size: 46px; 
+    color:  #201509;
+}
+footer {
+    background: #201509;
+    color: #aaa;
+    text-align: center;
+    padding: 80px 20px  40px 20px;
+}
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.footer-text,
+.footer-copy {
+    margin: 8px 0;
+    font-size: 12px;
+}
+.footer-copy {
+    padding-top: 40px;
+    margin-top: 40px;
+    border-top: 0.5px solid #b6b5b567;
+}
+.footer-text {
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+.social-icons a .material-symbols-outlined {
+    font-size: 28px;
+    color: #aaa;
+    transition: color 0.2s;
+}
+.social-icons a:hover .material-symbols-outlined {
+    color: #c01868;
+}
