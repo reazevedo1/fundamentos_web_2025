@@ -1,0 +1,160 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+a { text-decoration: none; color: inherit; }
+
+:root {
+  --dark: #222;
+  --light: #f9f9f9;
+  --green: #27ae60;
+  --white: #fff;
+}
+
+header {
+  background: var(--dark);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+header h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+header nav a {
+  margin-left: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header nav a.active,
+header nav a:hover {
+  background: var(--green);
+  border-radius: 3px;
+  color: var(--white);
+}
+
+button {
+  display: inline-block;
+  background: var(--green);
+  color: var(--white);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.welcome {
+  background: var(--dark);
+  color: var(--white);
+  text-align: center;
+  padding: 80px 10%;
+}
+.welcome h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.welcome h3 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.features {
+  background: var(--white);
+  padding: 60px 10%;
+  text-align: center;
+}
+.features h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.features h3 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+.feature_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.feature-item {
+  background: var(--light);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+}
+.feature-item .material-symbols-outlined {
+  font-size: 2rem;
+  color: var(--green);
+  margin-bottom: 15px;
+}
+.feature-item p {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.about {
+  background: var(--green);
+  color: var(--white);
+  text-align: center;
+  padding: 80px 10%;
+}
+.about h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.about .subtitle {
+  font-size: 1rem;
+  color: #e8f5e9;
+  margin-bottom: 20px;
+}
+.about p {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.extra {
+  background: var(--white);
+  color: #333;
+  text-align: center;
+  padding: 60px 10%;
+}
+.extra h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.extra p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background: var(--dark);
+  color: var(--white);
+  padding: 5% 10%;
+  text-align: center;
+  font-size: 0.9rem;
+}
+footer a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.wt-button {
+  background-color: var(--white);
+  color: var(--green);
+}
